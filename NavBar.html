@@ -1,209 +1,209 @@
 <html>
-<head>
-    <title>Uiowa iGem</title>
+    <head>
+        <title>Uiowa iGem</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-        body, html {
-            height: 100%;
-            color: #777;
-            line-height: 1.8;
-        }
-
-        /* Create a Parallax Effect */
-        .bgimg-1, .bgimg-2, .bgimg-3 {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .w3-wide {letter-spacing: 10px;}
-        .w3-hover-opacity {cursor: pointer;}
-
-        /* Turn off parallax scrolling for tablets and phones */
-        @media only screen and (max-device-width: 1024px) {
-            .bgimg-1, .bgimg-2, .bgimg-3 {
-                background-attachment: scroll;
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+            body, html {
+                height: 100%;
+                color: #777;
+                line-height: 1.8;
             }
-        }
 
-        .dropdown {
-            float: left;
-            overflow: hidden;
-        }
+            /* Create a Parallax Effect */
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
-        .dropdown .dropbtn {
-            font-size: 16px;
-            border: none;
-            outline: none;
-            color: white;
-            padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit;
-            margin: 0;
-        }
+            .w3-wide {letter-spacing: 10px;}
+            .w3-hover-opacity {cursor: pointer;}
 
-        .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
-        }
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                .bgimg-1, .bgimg-2, .bgimg-3 {
+                    background-attachment: scroll;
+                }
+            }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
 
-        .dropdown-content a {
-            float: none;
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
 
-        .w3-top{
-            top: 10px;
-        }
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
 
-        .w3-bar .w3-bar-item {
-            /* padding: 8px 16px; */
-            float: none;
-            /* width: auto; */
-            /* border: none; */
-            /* display: block; */
-            /* outline: 0; */
-        }
-        #top_title{display:none;}
-    </style>
-</head>
-<body>
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar"
-         id="myNavbar">
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
 
-        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
-           title="Toggle Navigation Menu">
-            <i class="fa fa-bars"></i>
-        </a>
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button" href="http://2018.igem.org/Team:UIOWA">
-                HOME
-            </button>
-        </div>
+            .w3-top{
+                top: 10px;
+            }
 
-        <!--navigation bar body-->
-        <!--*********************************************-->
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button">
-                TEAM
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="http://2018.igem.org/Team:UIOWA/Team">
-                    Team Members
+            .w3-bar .w3-bar-item {
+                /* padding: 8px 16px; */
+                float: none;
+                /* width: auto; */
+                /* border: none; */
+                /* display: block; */
+                /* outline: 0; */
+            }
+            #top_title{display:none;}
+        </style>
+    </head>
+    <body>
+    <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar"
+                 id="myNavbar">
+
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                   title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
                 </a>
-                <a href="http://2018.igem.org/Team:UIOWA/Collaborations">
-                    Collaborations
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button" href="http://2018.igem.org/Team:UIOWA">
+                        HOME
+                    </button>
+                </div>
+
+                <!--navigation bar body-->
+                <!--*********************************************-->
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button">
+                        TEAM
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="http://2018.igem.org/Team:UIOWA/Team">
+                            Team Members
+                        </a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Collaborations">
+                            Collaborations
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button">
+                        PROJECT
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+
+                        <a href="http://2018.igem.org/Team:UIOWA/Description">Description</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Design">Design</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Experiments">Experiments</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Notebook">Notebook</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/InterLab">Interlab</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Model">Model</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Results">Results</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Demonstrate">Demonstrate</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Improve">Improve</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Attributions">Atrributions</a>
+
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button">PARTS
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="http://2018.igem.org/Team:UIOWA/Parts">Parts Overview</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Basic_Part">Basic Parts</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Composite_Part">Composite Parts</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Part_Collection">Parts Collection</a>
+                    </div></div>
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button" href="http://2018.igem.org/Team:UIOWA/Safety">SAFETY
+                    </button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button">
+                        AWARDS
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="http://2018.igem.org/Team:UIOWA/Applied_Design">Applied Design</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Entrepreneurship">Entrepreneurship</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Hardware">Hardware</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Measurement">Measurement</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Model">Model</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Software">Software</a>
+                    </div></div>
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button">HUMAN PRACTICES
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="http://2018.igem.org/Team:UIOWA/Human_Practices">Human Practices</a>
+                        <a href="http://2018.igem.org/Team:UIOWA/Public_Engagement">Education and Engagement</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="w3-bar-item w3-button" href="http://igem.org/2018_Judging_Form?team=UIOWA">JUDGING FORM
+                    </button>
+                </div>
+
+                <!--***********************************************-->
+                <!--navigation bar body ends-->
+
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                    <i class="fa fa-search"></i>
                 </a>
             </div>
+
         </div>
+        <br>
 
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button">
-                PROJECT
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-
-                <a href="http://2018.igem.org/Team:UIOWA/Description">Description</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Design">Design</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Experiments">Experiments</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Notebook">Notebook</a>
-                <a href="http://2018.igem.org/Team:UIOWA/InterLab">Interlab</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Model">Model</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Results">Results</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Demonstrate">Demonstrate</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Improve">Improve</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Attributions">Atrributions</a>
-
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button">PARTS
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="http://2018.igem.org/Team:UIOWA/Parts">Parts Overview</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Basic_Part">Basic Parts</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Composite_Part">Composite Parts</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Part_Collection">Parts Collection</a>
-            </div></div>
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button" href="http://2018.igem.org/Team:UIOWA/Safety">SAFETY
-            </button>
-        </div>
-
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button">
-                AWARDS
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="http://2018.igem.org/Team:UIOWA/Applied_Design">Applied Design</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Entrepreneurship">Entrepreneurship</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Hardware">Hardware</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Measurement">Measurement</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Model">Model</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Software">Software</a>
-            </div></div>
-
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button">HUMAN PRACTICES
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="http://2018.igem.org/Team:UIOWA/Human_Practices">Human Practices</a>
-                <a href="http://2018.igem.org/Team:UIOWA/Public_Engagement">Education and Engagement</a>
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <button class="w3-bar-item w3-button" href="http://igem.org/2018_Judging_Form?team=UIOWA">JUDGING FORM
-            </button>
-        </div>
-
-        <!--***********************************************-->
-        <!--navigation bar body ends-->
-
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-            <i class="fa fa-search"></i>
-        </a>
-    </div>
-
-</div>
-<br>
-
-</body>
+    </body>
 </html>
